@@ -1,3 +1,6 @@
+source("../config.R")
+
+library(rmr2)
 library(randomForest)
 data(iris)
 irishdfs= to.dfs(iris)
